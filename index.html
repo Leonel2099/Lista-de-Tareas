@@ -15,7 +15,27 @@
   </head>
   <body class="bg-success-subtle text-black-50">
     <header></header>
-    <main></main>
+    <main class="container-fluid text-center my-4">
+      <section>
+          <h1>Lista de tareas</h1>
+          <hr>
+      </section>
+      <section class="container">
+          <form class="input-group">
+              <input class="form-control" type="text" id="tarea">
+              <button type="submit" class="btn btn-secondary">Cargar tarea</button>
+          </form>
+      </section>
+      <section class="my-4">
+          <aside>
+              <h3 class="text-start">Lista</h3>
+          </aside>
+          <aside>
+              <ul class="list-group">
+              </ul>
+          </aside>
+      </section>
+  </main>
     <footer></footer>
   </body>
   <script src="./js/bootstrap.min.js"></script>
